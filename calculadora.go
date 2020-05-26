@@ -45,14 +45,6 @@ func leerEntrada(mensaje string) string {
 	return scanner.Text()
 }
 
-func main() {
-	operacion := leerEntrada("Ingresa la operación")
-	operador := leerEntrada("Ingresa el operador")
-	c := calc{}
-	res := c.operate(operacion, operador)
-	fmt.Printf("%d", res)
-}
-
 //Suma Suma 2 números
 func Suma(x int, y int) int {
 	return (x + y)
