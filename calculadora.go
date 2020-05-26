@@ -38,7 +38,7 @@ func parsear(entrada string) int {
 	return operador1
 }
 
-func leerEntrada(mensaje string) string {
+func LeerEntrada(mensaje string) string {
 	scanner := bufio.NewScanner(os.Stdin)
 	fmt.Println(mensaje)
 	scanner.Scan()
